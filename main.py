@@ -50,7 +50,7 @@ available_milk = resources['milk']
 available_coffee = resources['coffee']
 # Secret way of turning of the machine and also for generating report of the machine
 coffee_machine_working = True
-
+#eo
 while coffee_machine_working:
     choice = input("What would you like? (espresso/latte/cappuccino): ").lower()
     if choice == 'off':
